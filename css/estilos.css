@@ -1,0 +1,145 @@
+* {
+
+    padding: 0;
+    margin: 0;
+
+
+}
+
+a {
+
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+.color-2 {
+
+    background-color: #588157;
+
+}
+
+.color-1 {
+
+    background-color: #A3B18A;
+
+}
+
+.color-texto-1 {
+
+    color: #3A5A40;
+    
+
+}
+
+a {
+
+    text-decoration: none;
+    font-size: 1.1em;
+    
+
+}
+
+.color-nav {
+
+    background-color: #344E41;
+
+}
+
+
+.cambio:hover {
+
+    background-color: gray;
+
+}
+
+header {
+
+    background-image: url(../img/invierno.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.temas {
+
+    overflow: hidden;
+    height: 20em;
+    transition: 0.5s all ease;
+
+}
+
+.temas img {
+
+   height: 100%;
+   object-fit: cover;
+
+}
+
+.temas:hover {
+
+    transform: translate(5px, -20px);
+
+}
+
+.nombre_tema {
+
+    opacity: 0;
+    transition: all 0.5s ease;
+    transform: translate(0,-50px);
+
+}
+
+.contenedor_tema:hover .nombre_tema {
+
+    opacity: 1;
+    transform: translate(0, 0px);
+
+}
+
+.part {
+
+    margin-bottom: 2em;
+
+}
+
+footer {
+
+    color: white;
+    background-color: #344e41;
+
+}
+.activa{
+
+    background-color: rgb(14, 116, 48);
+    border-bottom: 2px black solid;
+
+}
+
+.imagen-temas {
+
+    height: 100%;
+    overflow: hidden;
+
+}
+
+.boton-calcular {
+
+    background-color: #344E41;
+
+}
+
+.boton-calcular:hover {
+
+    background-color: #3a5a40;
+
+}
+
+.boton-calcular:active {
+
+    border: none;
+
+}
